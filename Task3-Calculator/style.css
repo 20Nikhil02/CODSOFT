@@ -10,7 +10,7 @@ body{
 .calculator {
     width: 370px;
     text-align: center;
-    background-color: #367997;
+    background-color: #4a9fc6;
     padding: 5px;
     border-radius: 10px;
 }
@@ -33,6 +33,7 @@ button {
     margin: 3px;
     font-weight: bold;
     font-size: 22px;
+    box-shadow: #6aecc4 3px 3px 3px;
 }
 
 .big {
@@ -40,5 +41,12 @@ button {
 }
 
 button:hover {
-    background-color: gainsboro;
+    background-color: #0cd1a1;
+    color: white;
+    box-shadow: #134032 3px 3px 3px
+}
+
+#result:hover {
+    background-color: #92ffe4;
+    color: black;
 }
